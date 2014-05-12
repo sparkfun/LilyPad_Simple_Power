@@ -2067,6 +2067,10 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="3.83" y1="-0.75" x2="4.08" y2="-1" width="0.2032" layer="21" curve="90"/>
 <wire x1="7.18" y1="0.25" x2="7.18" y2="0.2" width="0.2032" layer="21"/>
 </package>
+<package name="SIMPLE_HOLE">
+<pad name="P$1" x="0" y="0" drill="2.54" diameter="3.048"/>
+<text x="1.905" y="-0.127" size="0.4064" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SEWTAP">
@@ -2080,6 +2084,11 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="12.7" y1="-2.54" x2="12.7" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
 <text x="-0.254" y="0.254" size="1.9304" layer="94">LilyPad</text>
+</symbol>
+<symbol name="SIMPLE_HOLE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<text x="-2.54" y="-4.318" size="1.27" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2203,6 +2212,23 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <device name="11" package="PETAL-TINY">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SEW_HOLE" prefix="H">
+<description>Simple sew-hole&lt;br&gt;
+.1" diameter hole with 20mil annular ring</description>
+<gates>
+<gate name="G$1" symbol="SIMPLE_HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SIMPLE_HOLE">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7886,10 +7912,10 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <part name="R4" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2.0k"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$6" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
-<part name="H1" library="LilyPad-Wearables" deviceset="SEWTAP" device="4"/>
-<part name="H2" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="H3" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
-<part name="H4" library="LilyPad-Wearables" deviceset="SEWTAP" device="6"/>
+<part name="H5" library="LilyPad-Wearables" deviceset="SEW_HOLE" device=""/>
+<part name="H6" library="LilyPad-Wearables" deviceset="SEW_HOLE" device=""/>
+<part name="H7" library="LilyPad-Wearables" deviceset="SEW_HOLE" device=""/>
+<part name="H8" library="LilyPad-Wearables" deviceset="SEW_HOLE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7925,10 +7951,10 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <instance part="R4" gate="G$1" x="157.48" y="109.22" rot="R90"/>
 <instance part="GND5" gate="1" x="157.48" y="96.52"/>
 <instance part="U$6" gate="G$1" x="148.082" y="6.858"/>
-<instance part="H1" gate="G$1" x="22.86" y="38.1"/>
-<instance part="H2" gate="G$1" x="22.86" y="27.94"/>
-<instance part="H3" gate="G$1" x="22.86" y="17.78"/>
-<instance part="H4" gate="G$1" x="22.86" y="7.62"/>
+<instance part="H5" gate="G$1" x="33.02" y="38.1"/>
+<instance part="H6" gate="G$1" x="33.02" y="27.94"/>
+<instance part="H7" gate="G$1" x="33.02" y="17.78"/>
+<instance part="H8" gate="G$1" x="33.02" y="7.62"/>
 </instances>
 <busses>
 </busses>
