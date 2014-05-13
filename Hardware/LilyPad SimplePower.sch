@@ -7921,7 +7921,7 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <sheet>
 <plain>
 <text x="171.704" y="11.684" size="2.54" layer="94">Nathan Seidle</text>
-<text x="236.22" y="7.62" size="2.54" layer="94">v 2.0</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">2.0</text>
 <text x="174.752" y="6.858" size="2.54" layer="94">Toni Klopfenstein</text>
 <wire x1="0" y1="50.8" x2="53.34" y2="50.8" width="0.2032" layer="94" style="shortdash"/>
 <wire x1="53.34" y1="50.8" x2="53.34" y2="0" width="0.2032" layer="94" style="shortdash"/>

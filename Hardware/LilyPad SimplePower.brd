@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -123,18 +123,37 @@
 <text x="5.969" y="-6.604" size="1.016" layer="21" font="vector" ratio="15" rot="R180">OFF</text>
 <text x="-4.1275" y="4.6355" size="1.778" layer="21" font="vector" ratio="15">+</text>
 <text x="6.35" y="-26.67" size="1.778" layer="51" font="vector">N. Seidle</text>
-<text x="-13.335" y="-3.175" size="0.8128" layer="16" font="vector" ratio="25" rot="SMR90">v20</text>
+<text x="0.9525" y="-9.525" size="0.8128" layer="16" font="vector" ratio="25" rot="SMR0">v20</text>
 <circle x="0" y="-2.54" radius="14.224" width="0.254" layer="20"/>
-<text x="2.159" y="-9.4615" size="1.016" layer="21" font="vector" ratio="15">CHG</text>
-<text x="-6.985" y="3.4925" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
-<text x="6.0325" y="-9.2075" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
+<text x="2.4765" y="-9.144" size="1.016" layer="21" font="vector" ratio="15">CHG</text>
+<text x="-10.795" y="4.445" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
+<text x="9.525" y="-10.16" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
 <text x="6.35" y="-29.21" size="1.778" layer="51" font="vector">Toni Klopfenstein</text>
-<text x="5.94995" y="3.3147" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
-<text x="-6.985" y="-9.525" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
+<text x="9.50595" y="4.4577" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
+<text x="-10.795" y="-10.16" size="0.8128" layer="21" font="vector" ratio="15">NC</text>
 <text x="-4.1275" y="-12.5095" size="1.778" layer="21" font="vector" ratio="15">-</text>
 <wire x1="0" y1="12.065" x2="0" y2="-2.54" width="0" layer="47"/>
 <circle x="0" y="-2.54" radius="14.19903125" width="0.254" layer="30"/>
-<circle x="0" y="-2.54" radius="11.811" width="5.08" layer="42"/>
+<circle x="0" y="-2.54" radius="11.2776" width="6.096" layer="42"/>
+<circle x="-3.429" y="2.0955" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="-5.3975" y="-4.7625" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="-3.302" y="-7.4295" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="0" y="-2.54" radius="8.128" width="0.0254" layer="49"/>
+<circle x="-5.6515" y="-0.9525" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="3.556" y="1.9685" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="5.6515" y="-1.143" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="3.302" y="-7.366" radius="2.300015625" width="0.001" layer="49"/>
+<circle x="5.3975" y="-4.7625" radius="2.300015625" width="0.001" layer="49"/>
+<wire x1="-5.55625" y1="1.27" x2="-2.2225" y2="4.1275" width="0.0889" layer="42" curve="-149.184294"/>
+<wire x1="6.985" y1="-3.175" x2="7.3025" y2="-6.0325" width="0.0889" layer="42" curve="-84.400661"/>
+<wire x1="5.55625" y1="-7.14375" x2="2.06375" y2="-9.36625" width="0.0889" layer="42" curve="-130.939993"/>
+<wire x1="-2.06375" y1="-9.36625" x2="-5.55625" y2="-7.14375" width="0.0889" layer="42" curve="-130.432352"/>
+<wire x1="-5.55625" y1="-6.985" x2="-6.82625" y2="-3.01625" width="0.0889" layer="42" curve="-143.972627"/>
+<wire x1="1.74625" y1="4.445" x2="2.2225" y2="3.81" width="0.0889" layer="42" curve="-18.034286"/>
+<wire x1="2.38125" y1="3.96875" x2="5.715" y2="1.11125" width="0.0889" layer="42" curve="-146.382048"/>
+<wire x1="-2.06375" y1="4.1275" x2="-1.74625" y2="4.445" width="0.0889" layer="42"/>
+<wire x1="-6.82625" y1="-3.01625" x2="-5.55625" y2="1.42875" width="0.0889" layer="42" curve="-155.513319"/>
+<wire x1="5.715" y1="1.11125" x2="6.985" y2="-3.01625" width="0.0889" layer="42" curve="-141.555832"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -686,9 +705,9 @@ design rules under a new name.</description>
 <element name="JP1" library="SparkFun" package="JST-2-SMD" value="" x="-9.8425" y="-2.54" rot="R90"/>
 <element name="U$3" library="LilyPad-Wearables" package="PETAL-LONG-1-2SIDE" value="SEWTAP9" x="-0.04445" y="-13.3604" rot="R90"/>
 <element name="U$4" library="LilyPad-Wearables" package="PETAL-LONG-1-2SIDE" value="SEWTAP9" x="0" y="8.255" rot="R270"/>
-<element name="U$1" library="LilyPad-Wearables" package="LOGO-LILYPAD" value="LOGO-LPLP" x="0.3175" y="2.2225" rot="MR0"/>
-<element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="-6.0325" y="-2.54" rot="MR0"/>
-<element name="JP3" library="SparkFun-Aesthetics" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="5.715" y="-4.1275" rot="MR0"/>
+<element name="U$1" library="LilyPad-Wearables" package="LOGO-LILYPAD" value="LOGO-LPLP" x="0.15875" y="1.905" rot="MR0"/>
+<element name="U$5" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="-5.23875" y="-2.54" rot="MR0"/>
+<element name="JP3" library="SparkFun-Aesthetics" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="6.50875" y="-4.28625" rot="MR0"/>
 <element name="U1" library="SparkFun-PowerIC" package="SOT23-5" value="MCP73831" x="-1.5875" y="-2.54" rot="R180">
 <attribute name="PROD_ID" value="IC-09995" x="-1.5875" y="-2.54" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 </element>
