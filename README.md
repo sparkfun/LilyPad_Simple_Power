@@ -12,9 +12,14 @@ Repository Contents
 * **/Hardware** - All Eagle design files (.brd, .sch)
 * **/Production** - Test bed files and production panel files
 
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-simple-power-hookup-guide)** - Basic hookup guide for the LIlyPad Simple Power.
+
 Product Versions
 ----------------
-* [DEV-10085](https://www.sparkfun.com/products/retired/10085)- Version 1.4, retired. 
+* [DEV-11893](https://www.sparkfun.com/products/11893 )- Version 2.1. 
+* *[DEV-10085 (RETIRED)](https://www.sparkfun.com/products/retired/10085)- Version 1.4*
 
 Version History
 ---------------
