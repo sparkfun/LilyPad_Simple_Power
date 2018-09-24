@@ -14,7 +14,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-simple-power-hookup-guide)** - Basic hookup guide for the LIlyPad Simple Power.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/lilypad-simple-power-hookup-guide)** - Basic hookup guide for the LilyPad Simple Power.
 
 Product Versions
 ----------------
